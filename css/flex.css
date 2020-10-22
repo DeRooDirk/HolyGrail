@@ -89,7 +89,7 @@ footer{
         justify-content: space-around;
         flex-wrap: wrap;
     }
-    p{
+    main p{
         font-size: 0.5rem;
         max-width: 60%;
         
@@ -104,5 +104,10 @@ footer{
         
         display: flex;
         justify-content: center;
+    }
+    footer p{
+        text-align: center;
+        font-size: 0.5rem;
+       
     }
   }
