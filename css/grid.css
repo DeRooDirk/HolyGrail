@@ -70,10 +70,13 @@ footer {
 ul {
     list-style: none;
 }
-
+li{
+    padding:2%;
+}
 a {
     text-decoration: none;
-    padding: .9rem;
+    padding: 1rem;
+    margin: 20px;
 }
 
 img {

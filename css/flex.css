@@ -27,7 +27,7 @@ h1 {
 }
 
 nav {
-    flex: 1;
+    flex: 1;   
 }
 
 main {
@@ -44,10 +44,11 @@ aside {
 
 ul {
     list-style: none;
+    
 }
 
 li {
-    margin: 5px;
+    margin: 10px;
 }
 
 a {
@@ -63,7 +64,7 @@ p {
     padding: 2%;
     font-size: 0.8rem;
     color: rgb(34, 31, 230);
-
+    
 }
 
 img {
