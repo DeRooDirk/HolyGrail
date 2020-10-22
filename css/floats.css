@@ -28,7 +28,7 @@ body{
 }
 
 footer {
-    background: #476A6F;
+    background: rgb(71, 106, 111);
     color: white;
     padding: 1em;
     text-align: center;
@@ -76,4 +76,20 @@ img{
 }
 
 
-/*
+/*--- Media querrie ---*/
+
+@media only screen and (max-width: 750px) {
+    body{
+        background-color: blue;
+    }
+    .float{
+        display: flex;
+        flex-direction: column;
+        border: 5px solid red;
+        justify-content: center;
+        align-items: center;
+    }
+    .footer{
+        width: 100%;
+    }      
+    }
