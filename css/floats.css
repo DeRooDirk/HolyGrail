@@ -3,7 +3,6 @@
     content: '';
     clear: both;
 }
-
 *,
 *::before,
 *::after {
@@ -12,13 +11,11 @@
 
 * {
     margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+    padding: 0;    
 }
 body{
     background-color: rgb(77, 124, 138);
 }
-
 .sidebar {        
     padding: 1em;
 }
@@ -33,9 +30,6 @@ footer {
     padding: 1em;
     text-align: center;
 }
-
-
-
 .sidebarL {
     width: 25%;
     float: left;    
@@ -57,7 +51,7 @@ footer {
     clear: both;
 }
 
-/*needs styling and media screen */
+/*needs styling and media Querrie */
 header{
     background-color:rgb(71, 106, 111);
     text-align: center;
@@ -86,8 +80,7 @@ img{
     
     .float{
         display: flex;
-        flex-direction: column;
-       
+        flex-direction: column;       
         justify-content: center;
         align-items: center;
     }
