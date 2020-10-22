@@ -1,72 +1,81 @@
-*{
-    margin:0;
-    padding:0;
+* {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
-body{
+
+body {
     background-color: lightgray;
+    height: 10;
     /* test witdth 
     width: 80%;
     margin: 0 auto;
     --*/
 }
-header{
+
+header {
     background-color: rgb(91, 158, 160);
     text-align: center;
-    
-   }
-h1{
-    color: beige;  
-    
+
 }
-.flex{   
+
+h1 {
+    color: rgb(34, 31, 230);
+}
+
+.flex {
     display: flex;
 }
 
-nav{
-    
+nav {
     flex: 1;
 }
-main{
-  
-    flex:2;
+
+main {
+    flex: 2;
 }
-aside{
+
+aside {
     display: flex;
     justify-content: center;
     align-items: center;
     flex: 1;
     margin: 20px 0px;
 }
-ul{
+
+ul {
     list-style: none;
 }
-li{
+
+li {
     margin: 5px;
-    
 }
-a{
+
+a {
     text-decoration: none;
     color: chocolate;
 }
-a:hover{
+
+a:hover {
     color: rgb(194, 7, 7);
 }
-p{
+
+p {
     padding: 2%;
     font-size: 0.8rem;
-    
+    color: rgb(34, 31, 230);
 
 }
-img{
+
+img {
     width: 100%;
     height: auto;
     box-sizing: border-box;
-    max-width: 150px;
+    max-width: 190px;
 }
 
-footer{
-    background-color: rgb(91, 158, 160) ;
+footer {
+    background-color: rgb(91, 158, 160);
     text-align: center;
 }
 
@@ -75,39 +84,44 @@ footer{
 
 @media only screen and (max-width: 750px) {
     .flex {
-      background-color: rgb(49, 9, 226);
-      flex-direction: column;
+        background-color: rgb(9, 226, 107);
+        flex-direction: column;
     }
-    aside{
+
+    aside {
         display: flex;
         justify-content: center;
-       
-
+        margin: 10px;
     }
-    ul{
+
+    ul {
         display: flex;
         justify-content: space-around;
         flex-wrap: wrap;
     }
-    main p{
+
+    main p {
         font-size: 0.5rem;
         max-width: 60%;
-        
     }
-    h1{
+
+    h1 {
         font-size: 0.9rem;
     }
-    li{
+
+    li {
         font-size: 0.6rem;
     }
-    main{
-        
+
+    main {
+
         display: flex;
         justify-content: center;
     }
-    footer p{
+
+    footer p {
         text-align: center;
         font-size: 0.5rem;
-       
+
     }
-  }
+}
