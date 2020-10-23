@@ -3,9 +3,10 @@
     padding: 0;
     box-sizing: border-box;
 }
-.dirk{
+
+.dirk {
     display: flex;
-    justify-content: center;   
+    justify-content: center;
     align-items: center;
     background-image: url('../afb/jef.jpg');
     background-position: center;
@@ -14,31 +15,37 @@
     height: 100vh;
     width: 100vw;
 }
+
 .centerbox {
     border: 1px solid rgb(9, 9, 9);
-    height: 50%;    
+    height: 50%;
     background-color: rgb(0, 0, 0, 0.6);
     border-radius: 20px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    box-shadow: 1px 1px 8px 3px rgba(255, 255, 255, 0.5) inset; 
+    box-shadow: 1px 1px 8px 3px rgba(255, 255, 255, 0.5) inset;
 }
+
 ul {
-    list-style: none;  
+    list-style: none;
 }
+
 li {
     margin: 30px;
 }
+
 li a {
     text-decoration: none;
     color: rgb(78, 201, 53);
 }
+
 a:hover {
     color: rgb(242, 231, 146);
-    background-color:rgb(0, 0, 0);
+    background-color: rgb(0, 0, 0);
 }
+
 /*--- Some Extra Styling for fun  --*/
 a {
     border: 1px solid green;
@@ -46,7 +53,7 @@ a {
     transform: skewX(-10deg);
     height: 50px;
     width: 150px;
-    border-radius: 20px 5px 20px 0px;    
+    border-radius: 20px 5px 20px 0px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -59,6 +66,7 @@ a {
     transition: all .2s ease;
     cursor: pointer;
 }
+
 a::before {
     content: "";
     display: block;
@@ -72,6 +80,7 @@ a::before {
     border: 1px solid rgb(163, 201, 125);
     border-radius: 15px 3px 15px 3px;
 }
+
 .flicker {
     animation: flicker 1s linear both;
 }
@@ -225,49 +234,54 @@ a::before {
 
 /*--- volgende is de verschillende animatie van de links -- */
 
-.logo{
+.logo {
     height: 100px;
     width: 100px;
-    margin-top: 10%;    
+    margin-top: 10%;
 }
 
 
-/* hartslag */ 
+/* hartslag */
 
 .hartslag {
-	animation: hartslag 1.3s steps(2, end) 4 both;
+    animation: hartslag 1.3s steps(2, end) 4 both;
 }
+
 @keyframes hartslag {
     from {
-      
-              transform: scale(1);
-      
-              transform-origin: center center;
-      
-              animation-timing-function: ease-out;
+
+        transform: scale(1);
+
+        transform-origin: center center;
+
+        animation-timing-function: ease-out;
     }
+
     10% {
-      
-              transform: scale(0.91);
-      
-              animation-timing-function: ease-in;
+
+        transform: scale(0.91);
+
+        animation-timing-function: ease-in;
     }
+
     17% {
-      
-              transform: scale(0.98);
-      
-              animation-timing-function: ease-out;
+
+        transform: scale(0.98);
+
+        animation-timing-function: ease-out;
     }
+
     33% {
-      
-              transform: scale(0.87);
-      
-              animation-timing-function: ease-in;
+
+        transform: scale(0.87);
+
+        animation-timing-function: ease-in;
     }
+
     45% {
-      
-              transform: scale(1);
-      
-              animation-timing-function: ease-out;
+
+        transform: scale(1);
+
+        animation-timing-function: ease-out;
     }
-  }
+}
