@@ -5,18 +5,21 @@
 
 }
 body{
-    display: flex;
-    justify-content: center;
-    width: 100vw;
-    height: 100vh;
-    align-items: center;
+ /*  */
+    
     background-image: url('../afb/jef.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
 
-
+.dirk{
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+}
 .centerbox {
     border: 2px solid rgb(9, 9, 9);
     height: 50%;
