@@ -4,8 +4,7 @@
     box-sizing: border-box;
 
 }
-
-.dirk {
+body{
     display: flex;
     justify-content: center;
     width: 100vw;
@@ -15,13 +14,12 @@
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-  /*  background-color: rgb(247, 156, 156);*/
 }
+
 
 .centerbox {
     border: 2px solid rgb(0, 0, 0);
     height: 50%;
-    width: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
