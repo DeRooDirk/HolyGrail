@@ -1,3 +1,3 @@
 # HolyGrail
 
- https://deroodirk.github.io/HolyGrail
+ https://deroodirk.github.io/HolyGrail/
