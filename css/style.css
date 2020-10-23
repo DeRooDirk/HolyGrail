@@ -33,7 +33,7 @@ ul {
 }
 
 li {
-    margin: 30px;
+    margin: 20px 50px;
 }
 
 li a {
@@ -235,9 +235,9 @@ a::before {
 /*--- volgende is de verschillende animatie van de links -- */
 
 .logo {
-    height: 150px;
-    width: 150px;
-    margin-top: 10%;
+    height: 120px;
+    width: 120px;  
+   
 }
 
 
