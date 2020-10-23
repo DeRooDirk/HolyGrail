@@ -12,7 +12,7 @@
     align-items: center;
     background-image: url('../afb/jef.jpg');
     background-position: center;
-    background-size: cover;
+    background-size: 105% 105%;
     background-repeat: no-repeat;
     height: 100vh;
     width: 100vw;
