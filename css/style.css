@@ -72,7 +72,7 @@ a::before {
     border-radius: 15px 3px 15px 3px;
 }
 .flicker {
-    animation: flicker 2.5s linear both;
+    animation: flicker 1s linear both;
 }
 
 @keyframes flicker {
@@ -204,7 +204,7 @@ a::before {
 
 .track {
 
-    animation: track 2.5s cubic-bezier(0.550, 0.055, 0.675, 0.190) 2.7s both;
+    animation: track .5s cubic-bezier(0.550, 0.055, 0.675, 0.190) 1s both;
 }
 
 @keyframes track {
