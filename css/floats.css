@@ -41,14 +41,14 @@ footer {
 }
 
 .sidebarR {
-  /* width: 25%;
- /*   float: right;  */
-  /*  display: flex;
+   width: 25%;
+    float: right;  
+   display: flex;
     justify-content: center;
 }
 
 .footer {
-  /*  clear: both;*/
+   clear: both;
 }
 
 /*needs styling and media Querrie */
